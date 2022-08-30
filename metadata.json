@@ -30,7 +30,7 @@
       "version_requirement": ">= 4.13.1"
     },
     {
-      "name": "puppet/download_file",
+      "name": "tca_puppet_download_file",
       "version_requirement": ">= 2.0.0"
     }
   ],
