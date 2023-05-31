@@ -118,3 +118,15 @@ alias_volumes_loose = CheckDriveSize MinWarn=10% MinCrit=5% CheckAll=volumes Fil
 
 ; default - Alias for default. To configure this item add a section called: /settings/external scripts/alias/default
 default = 
+
+; NRPE Server settings Set Nagios server to use NRPE version 2.
+[/settings/NRPE/server]
+
+ssl options =
+allow arguments = true
+allow nasty characters = true
+use ssl = 1
+port = 5666
+extended response = 1
+verify mode = none
+insecure = true
