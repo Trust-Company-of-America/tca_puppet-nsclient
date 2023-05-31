@@ -1,6 +1,6 @@
 {
   "name": "tca_puppet-nsclient",
-  "version": "2.1.4",
+  "version": "2.1.6",
   "author": "Vox Pupuli",
   "license": "MIT",
   "summary": "Installs the NSClient on windows servers to be able to interact with Nagios and Icinga",
